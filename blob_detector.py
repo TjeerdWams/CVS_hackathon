@@ -8,7 +8,7 @@ def blob_detector(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     # Parameters for thresholding
-    min_thresh = 100
+    min_thresh = 90
     max_thresh = 255
 
     # Apply a binary threshold

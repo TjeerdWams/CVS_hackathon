@@ -38,7 +38,7 @@ class RRTStar(RRT):
                  max_iter=600,
                  connect_circle_dist=100.0,
                  search_until_max_iter=True,
-                 robot_radius=0.0):
+                 robot_radius=10.0):
         """
         Setting Parameter
 

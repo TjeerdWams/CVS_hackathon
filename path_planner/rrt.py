@@ -50,8 +50,8 @@ class RRT:
                  path_resolution=0.5,
                  goal_sample_rate=5,
                  max_iter=500,
-                 play_area=[0,1280,0,720],
-                 robot_radius=0.0,
+                 play_area=[100,885,0,668],
+                 robot_radius=10.0,
                  ):
         """
         Setting Parameter
