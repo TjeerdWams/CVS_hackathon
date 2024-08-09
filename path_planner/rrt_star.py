@@ -36,7 +36,7 @@ class RRTStar(RRT):
                  path_resolution=1.0,
                  goal_sample_rate=20,
                  max_iter=600,
-                 connect_circle_dist=100.0,
+                 connect_circle_dist=60.0,
                  search_until_max_iter=True,
                  robot_radius=10.0):
         """

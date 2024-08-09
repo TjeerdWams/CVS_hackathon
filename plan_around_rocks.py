@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 from blob_detector import blob_detector
-from path_planner.rrt_star_dubins import RRTStarDubins
 from path_planner.rrt_star import RRTStar
 import matplotlib.pyplot as plt
 from utils.plot import plot_arrow
@@ -60,7 +59,7 @@ rrt_star = RRTStar(
     obstacle_list=obstacleList,
     expand_dis=40,
     max_iter=150,
-    robot_radius=10.0)
+    robot_radius=13.0)
 path = rrt_star.planning(animation=show_animation)
 
 if path is None:
